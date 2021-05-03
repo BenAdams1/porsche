@@ -1,0 +1,82 @@
+body {
+    background: #dddddd;
+    font-family: "Nunito", sans-serif;
+}
+
+/* Title of each paragraph */
+.blurb h2 {
+   color: #5aaed4;
+   font-family: 'Orbitron', sans-serif;
+   font-size: 1.75rem;
+   font-weight: 300;
+}
+
+.content {
+    font-size: 100px;
+    color: orange;
+}
+
+/* text of paragraph */
+.blurb p {
+    color: #0b1d29;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 2;
+}
+
+/* Pushes content down from the image above */
+.content {
+    margin-bottom: 10px;
+    margin-top: 10px;
+} 
+
+/* Main/Beginning heading */
+#headingGroup h1 {
+    color: #A7002C;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+/* font size of links in navbar */
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 200;    
+}
+
+/* Name of Brand */
+#mainNavbar .navbar-brand {
+    color: #000000;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Color of link before hovering */
+#mainNavbar .nav-link {
+    color: #444444;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Color change when after hovering over link */
+#mainNavbar .nav-link:hover {
+    color: #fd6a02;
+}
+
+/* navbar background color */
+.navbar.scrolled {
+    background: #5aaed4;
+    transition: background 500ms;
+}
+
+/* allows for images to flex */
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+        font-weight: 100;
+        }
+}
+    
+
+
+
